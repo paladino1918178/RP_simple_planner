@@ -43,3 +43,5 @@ ros2 launch simple_planner launch.py num_open_doors:=15
 --- 
 
 ## Demo
+
+<video src="Demo.mp4" controls width="600"></video>

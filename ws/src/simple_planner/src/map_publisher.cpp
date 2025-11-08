@@ -34,7 +34,7 @@ int main(int argc, char **argv) {
   const int WALL_Y2[3] = {8, 16, 24};
 
   // Parametri dinamicità delle porte
-  const int   NUM_OPEN_DOORS = 18;      // quante "porte" restano aperte contemporaneamente
+  const int   NUM_OPEN_DOORS = 18;      // quante "porte" restano aperte contemporaneamente, su 24
   const double TOGGLE_SEC     = 2.0;   // ogni quanti secondi rimescoliamo le porte aperte
 
   // Mappa statica con muri e stanze
@@ -72,7 +72,7 @@ int main(int argc, char **argv) {
   }
 
   // Catalogo delle "porte" possibili 
-  std::vector<int> room_band_centers = { PERIM + ROOM_FREE/2,                 // 1..6 -> centro ~3/4
+  std::vector<int> room_band_centers = { PERIM + ROOM_FREE/2,                 // 1..6 -> centro 3/4
                                          PERIM + ROOM_FREE + WALL_THICK + ROOM_FREE/2,      // 9..14 -> 11/12
                                          PERIM + 2*(ROOM_FREE + WALL_THICK) + ROOM_FREE/2,  // 17..22 -> 19/20
                                          PERIM + 3*(ROOM_FREE + WALL_THICK) + ROOM_FREE/2 };// 25..30 -> 27/28
@@ -98,7 +98,7 @@ int main(int argc, char **argv) {
       all_doors.push_back(Door{cx, WALL_Y1[k], cx, WALL_Y2[k]});
     }
   }
-  // all_doors contiene ~24 porte candidate (12 verticali + 12 orizzontali)
+  // all_doors contiene 24 porte candidate (12 verticali + 12 orizzontali)
 
   // Stato delle porte aperte (dinamiche)
   std::mt19937 rng(static_cast<unsigned>(std::chrono::steady_clock::now().time_since_epoch().count()));

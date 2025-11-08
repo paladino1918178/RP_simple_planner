@@ -1,0 +1,6 @@
+Invoking command in '/home/gerardo/ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/gerardo/ws/src/simple_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gerardo/ws/install/simple_planner
+Invoked command in '/home/gerardo/ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/gerardo/ws/src/simple_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gerardo/ws/install/simple_planner
+Invoking command in '/home/gerardo/ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/gerardo/ws/build/simple_planner -- -j8 -l8
+Invoked command in '/home/gerardo/ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/gerardo/ws/build/simple_planner -- -j8 -l8
+Invoking command in '/home/gerardo/ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/gerardo/ws/build/simple_planner
+Invoked command in '/home/gerardo/ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/gerardo/ws/build/simple_planner

@@ -1,0 +1,61 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Name: TF
+      Class: rviz_default_plugins/TF
+      Enabled: true
+
+    - Name: Map
+      Class: rviz_default_plugins/Map
+      Enabled: true
+      Topic: /map
+      Color Scheme: map
+      Alpha: 1.0
+
+    - Name: Path
+      Class: rviz_default_plugins/Path
+      Enabled: true
+      Topic: /path
+      Color: 255; 0; 0
+      Width: 0.05
+
+    - Name: Grid
+      Class: rviz_default_plugins/Grid
+      Enabled: true
+
+    # Interactive Marker per start
+    - Name: Start Marker
+      Class: rviz_default_plugins/InteractiveMarkers
+      Enabled: true
+      Update Topic: /start_marker
+      Namespace: start
+      Description: Start point
+      Interaction Mode: MOVE_PLANE
+      Scale: 0.3
+
+    # Interactive Marker per goal
+    - Name: Goal Marker
+      Class: rviz_default_plugins/InteractiveMarkers
+      Enabled: true
+      Update Topic: /goal_marker
+      Namespace: goal
+      Description: Goal point
+      Interaction Mode: MOVE_PLANE
+      Scale: 0.3
+
+  Global Options:
+    Fixed Frame: map
+  Name: root
+
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Name: Interact
+    - Class: rviz_default_plugins/MoveCamera
+      Name: Move Camera
+    - Class: rviz_default_plugins/Select
+      Name: Select
+    - Class: rviz_default_plugins/SetInitialPose
+      Name: 2D Pose Estimate
+    - Class: rviz_default_plugins/SetGoal
+      Name: 2D Goal Pose
+

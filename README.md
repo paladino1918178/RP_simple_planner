@@ -10,6 +10,12 @@ This project implement a simple planner using ROS 2 Jazzy.
   
 ---
 
+## Path Planner Algorithm
+
+The **simple_planner** node receives the *map*, the *start*, and the *goal* positions, then computes the shortest path using A* on a grid map. Each cell’s cost depends on distance and proximity to walls, while occupied cells are excluded. The path goes through the center of open doors, and if all doors to the goal are closed making the route impossible, the node publishes an empty path to indicate no valid path exists.
+
+---
+
 ## Setup and Build Instructions
 
 Open a terminal and follow these steps:

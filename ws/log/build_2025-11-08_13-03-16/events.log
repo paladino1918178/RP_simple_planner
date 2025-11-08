@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (simple_planner) JobQueued: {'identifier': 'simple_planner', 'dependencies': OrderedDict()}
+[0.000280] (simple_planner) JobStarted: {'identifier': 'simple_planner'}
+[0.005358] (simple_planner) JobProgress: {'identifier': 'simple_planner', 'progress': 'cmake'}
+[0.007166] (simple_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/gerardo/ws/src/simple_planner', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/gerardo/ws/install/simple_planner'], 'cwd': '/home/gerardo/ws/build/simple_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gerardo', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gerardo', 'OLDPWD': '/home/gerardo', 'NVM_BIN': '/home/gerardo/.nvm/versions/node/v24.3.0/bin', 'NVM_INC': '/home/gerardo/.nvm/versions/node/v24.3.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/gerardo/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gerardo/ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gerardo', 'NAME': 'Pc-di-Gerardo', 'WSL_INTEROP': '/run/WSL/54704_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/gerardo/.local/share/solana/install/active_release/bin:/home/gerardo/.nvm/versions/node/v24.3.0/bin:/home/gerardo/.local/share/solana/install/active_release/bin:/home/gerardo/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.10.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Microsoft SDKs/Azure/CLI2/wbin:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/System32/HWAudioDriverLibs:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/gerar/.cargo/bin:/mnt/c/Users/gerar/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gerar/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gerar/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/gerar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gerar/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gerar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gerar/AppData/Local/Programs/Ollama:/mnt/c/Users/gerar/.dotnet/tools:/mnt/c/Program Files/swipl/bin:/mnt/c/Users/gerar/AppData/Local/Programs/Azure Data Studio/bin:/mnt/c/Users/gerar/AppData/Roaming/npm:/mnt/c/ffmpeg/bin:/mnt/c/Program Files (x86)/Tools:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Program Files/Tesseract-OCR/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/gerardo/ws/install/simple_planner:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/gerardo/ws/build/simple_planner', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/gerardo/ws/install/simple_planner:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.099275] (-) TimerEvent: {}
+[0.107581] (simple_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199397] (-) TimerEvent: {}
+[0.299678] (-) TimerEvent: {}
+[0.400024] (-) TimerEvent: {}
+[0.500305] (-) TimerEvent: {}
+[0.560501] (simple_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.600423] (-) TimerEvent: {}
+[0.700724] (-) TimerEvent: {}
+[0.801039] (-) TimerEvent: {}
+[0.901339] (-) TimerEvent: {}
+[0.969856] (simple_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001410] (-) TimerEvent: {}
+[1.101685] (-) TimerEvent: {}
+[1.129370] (simple_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.136045] (simple_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.136246] (simple_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.136603] (simple_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.188358] (simple_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.201764] (-) TimerEvent: {}
+[1.301986] (-) TimerEvent: {}
+[1.358220] (simple_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.364677] (simple_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.365000] (simple_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.365209] (simple_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.366888] (simple_planner) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.402064] (-) TimerEvent: {}
+[1.458036] (simple_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.502162] (-) TimerEvent: {}
+[1.510511] (simple_planner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.526642] (simple_planner) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.602284] (-) TimerEvent: {}
+[1.690267] (simple_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.698512] (simple_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.702382] (-) TimerEvent: {}
+[1.708492] (simple_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.719738] (simple_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.772072] (simple_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.773927] (simple_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.802515] (-) TimerEvent: {}
+[1.820632] (simple_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.902611] (-) TimerEvent: {}
+[1.961026] (simple_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.002711] (-) TimerEvent: {}
+[2.038248] (simple_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.102834] (-) TimerEvent: {}
+[2.182743] (simple_planner) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.202941] (-) TimerEvent: {}
+[2.229533] (simple_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.303115] (-) TimerEvent: {}
+[2.303484] (simple_planner) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.304631] (simple_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.304778] (simple_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.304828] (simple_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.305468] (simple_planner) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.305578] (simple_planner) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.306022] (simple_planner) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.306104] (simple_planner) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.306553] (simple_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.306992] (simple_planner) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.307732] (simple_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.307820] (simple_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.308138] (simple_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.309335] (simple_planner) StdoutLine: {'line': b'-- Configuring done (2.3s)\n'}
+[2.319366] (simple_planner) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.322820] (simple_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/gerardo/ws/build/simple_planner\n'}
+[2.331532] (simple_planner) CommandEnded: {'returncode': 0}
+[2.332011] (simple_planner) JobProgress: {'identifier': 'simple_planner', 'progress': 'build'}
+[2.332665] (simple_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gerardo/ws/build/simple_planner', '--', '-j8', '-l8'], 'cwd': '/home/gerardo/ws/build/simple_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gerardo', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gerardo', 'OLDPWD': '/home/gerardo', 'NVM_BIN': '/home/gerardo/.nvm/versions/node/v24.3.0/bin', 'NVM_INC': '/home/gerardo/.nvm/versions/node/v24.3.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/gerardo/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gerardo/ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gerardo', 'NAME': 'Pc-di-Gerardo', 'WSL_INTEROP': '/run/WSL/54704_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/gerardo/.local/share/solana/install/active_release/bin:/home/gerardo/.nvm/versions/node/v24.3.0/bin:/home/gerardo/.local/share/solana/install/active_release/bin:/home/gerardo/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.10.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Microsoft SDKs/Azure/CLI2/wbin:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/System32/HWAudioDriverLibs:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/gerar/.cargo/bin:/mnt/c/Users/gerar/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gerar/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gerar/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/gerar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gerar/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gerar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gerar/AppData/Local/Programs/Ollama:/mnt/c/Users/gerar/.dotnet/tools:/mnt/c/Program Files/swipl/bin:/mnt/c/Users/gerar/AppData/Local/Programs/Azure Data Studio/bin:/mnt/c/Users/gerar/AppData/Roaming/npm:/mnt/c/ffmpeg/bin:/mnt/c/Program Files (x86)/Tools:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Program Files/Tesseract-OCR/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/gerardo/ws/install/simple_planner:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/gerardo/ws/build/simple_planner', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/gerardo/ws/install/simple_planner:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[2.369653] (simple_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/map_publisher.dir/src/map_publisher.cpp.o\x1b[0m\n'}
+[2.370169] (simple_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_planner_node.dir/src/simple_planner_node.cpp.o\x1b[0m\n'}
+[2.403229] (-) TimerEvent: {}
+[2.503548] (-) TimerEvent: {}
+[2.603879] (-) TimerEvent: {}
+[2.704227] (-) TimerEvent: {}
+[2.804579] (-) TimerEvent: {}
+[2.904934] (-) TimerEvent: {}
+[3.005243] (-) TimerEvent: {}
+[3.105662] (-) TimerEvent: {}
+[3.206002] (-) TimerEvent: {}
+[3.306278] (-) TimerEvent: {}
+[3.406602] (-) TimerEvent: {}
+[3.507073] (-) TimerEvent: {}
+[3.607420] (-) TimerEvent: {}
+[3.707767] (-) TimerEvent: {}
+[3.808046] (-) TimerEvent: {}
+[3.908353] (-) TimerEvent: {}
+[4.008673] (-) TimerEvent: {}
+[4.108934] (-) TimerEvent: {}
+[4.209258] (-) TimerEvent: {}
+[4.309559] (-) TimerEvent: {}
+[4.409898] (-) TimerEvent: {}
+[4.510202] (-) TimerEvent: {}
+[4.610485] (-) TimerEvent: {}
+[4.710773] (-) TimerEvent: {}
+[4.811068] (-) TimerEvent: {}
+[4.911344] (-) TimerEvent: {}
+[5.011543] (-) TimerEvent: {}
+[5.111869] (-) TimerEvent: {}
+[5.212176] (-) TimerEvent: {}
+[5.312392] (-) TimerEvent: {}
+[5.412760] (-) TimerEvent: {}
+[5.513039] (-) TimerEvent: {}
+[5.613319] (-) TimerEvent: {}
+[5.713561] (-) TimerEvent: {}
+[5.813864] (-) TimerEvent: {}
+[5.914185] (-) TimerEvent: {}
+[6.014384] (-) TimerEvent: {}
+[6.114728] (-) TimerEvent: {}
+[6.215087] (-) TimerEvent: {}
+[6.234223] (simple_planner) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable map_publisher\x1b[0m\n'}
+[6.315225] (-) TimerEvent: {}
+[6.415575] (-) TimerEvent: {}
+[6.435723] (simple_planner) StdoutLine: {'line': b'[ 75%] Built target map_publisher\n'}
+[6.515842] (-) TimerEvent: {}
+[6.616222] (-) TimerEvent: {}
+[6.716520] (-) TimerEvent: {}
+[6.816788] (-) TimerEvent: {}
+[6.917180] (-) TimerEvent: {}
+[7.017533] (-) TimerEvent: {}
+[7.117815] (-) TimerEvent: {}
+[7.218080] (-) TimerEvent: {}
+[7.318398] (-) TimerEvent: {}
+[7.418795] (-) TimerEvent: {}
+[7.519152] (-) TimerEvent: {}
+[7.619464] (-) TimerEvent: {}
+[7.719684] (-) TimerEvent: {}
+[7.819933] (-) TimerEvent: {}
+[7.920281] (-) TimerEvent: {}
+[8.020566] (-) TimerEvent: {}
+[8.120845] (-) TimerEvent: {}
+[8.221129] (-) TimerEvent: {}
+[8.321402] (-) TimerEvent: {}
+[8.421668] (-) TimerEvent: {}
+[8.521949] (-) TimerEvent: {}
+[8.622257] (-) TimerEvent: {}
+[8.722629] (-) TimerEvent: {}
+[8.823024] (-) TimerEvent: {}
+[8.923302] (-) TimerEvent: {}
+[9.023560] (-) TimerEvent: {}
+[9.123865] (-) TimerEvent: {}
+[9.224127] (-) TimerEvent: {}
+[9.324391] (-) TimerEvent: {}
+[9.424693] (-) TimerEvent: {}
+[9.525128] (-) TimerEvent: {}
+[9.625398] (-) TimerEvent: {}
+[9.725649] (-) TimerEvent: {}
+[9.825913] (-) TimerEvent: {}
+[9.926204] (-) TimerEvent: {}
+[10.026481] (-) TimerEvent: {}
+[10.126793] (-) TimerEvent: {}
+[10.227236] (-) TimerEvent: {}
+[10.327567] (-) TimerEvent: {}
+[10.427914] (-) TimerEvent: {}
+[10.528182] (-) TimerEvent: {}
+[10.628467] (-) TimerEvent: {}
+[10.728851] (-) TimerEvent: {}
+[10.829110] (-) TimerEvent: {}
+[10.929423] (-) TimerEvent: {}
+[11.029704] (-) TimerEvent: {}
+[11.129991] (-) TimerEvent: {}
+[11.230245] (-) TimerEvent: {}
+[11.330502] (-) TimerEvent: {}
+[11.430761] (-) TimerEvent: {}
+[11.531017] (-) TimerEvent: {}
+[11.631330] (-) TimerEvent: {}
+[11.731602] (-) TimerEvent: {}
+[11.831947] (-) TimerEvent: {}
+[11.932347] (-) TimerEvent: {}
+[12.032627] (-) TimerEvent: {}
+[12.132981] (-) TimerEvent: {}
+[12.233292] (-) TimerEvent: {}
+[12.333658] (-) TimerEvent: {}
+[12.433978] (-) TimerEvent: {}
+[12.534291] (-) TimerEvent: {}
+[12.611657] (simple_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_planner_node\x1b[0m\n'}
+[12.634403] (-) TimerEvent: {}
+[12.734759] (-) TimerEvent: {}
+[12.835066] (-) TimerEvent: {}
+[12.935382] (-) TimerEvent: {}
+[13.031532] (simple_planner) StdoutLine: {'line': b'[100%] Built target simple_planner_node\n'}
+[13.035463] (-) TimerEvent: {}
+[13.038854] (simple_planner) CommandEnded: {'returncode': 0}
+[13.039147] (simple_planner) JobProgress: {'identifier': 'simple_planner', 'progress': 'install'}
+[13.044830] (simple_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gerardo/ws/build/simple_planner'], 'cwd': '/home/gerardo/ws/build/simple_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gerardo', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/gerardo', 'OLDPWD': '/home/gerardo', 'NVM_BIN': '/home/gerardo/.nvm/versions/node/v24.3.0/bin', 'NVM_INC': '/home/gerardo/.nvm/versions/node/v24.3.0/include/node', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/gerardo/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gerardo/ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'gerardo', 'NAME': 'Pc-di-Gerardo', 'WSL_INTEROP': '/run/WSL/54704_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/home/gerardo/.local/share/solana/install/active_release/bin:/home/gerardo/.nvm/versions/node/v24.3.0/bin:/home/gerardo/.local/share/solana/install/active_release/bin:/home/gerardo/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.10.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Microsoft SDKs/Azure/CLI2/wbin:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/System32/HWAudioDriverLibs:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/WireGuard/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/gerar/.cargo/bin:/mnt/c/Users/gerar/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gerar/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gerar/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/gerar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gerar/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gerar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gerar/AppData/Local/Programs/Ollama:/mnt/c/Users/gerar/.dotnet/tools:/mnt/c/Program Files/swipl/bin:/mnt/c/Users/gerar/AppData/Local/Programs/Azure Data Studio/bin:/mnt/c/Users/gerar/AppData/Roaming/npm:/mnt/c/ffmpeg/bin:/mnt/c/Program Files (x86)/Tools:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/Program Files/Tesseract-OCR/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/gerardo/ws/install/simple_planner:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/gerardo/ws/build/simple_planner', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/gerardo/ws/install/simple_planner:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[13.050343] (simple_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.050772] (simple_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.051270] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/lib/simple_planner/simple_planner_node\n'}
+[13.057747] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/lib/simple_planner/map_publisher\n'}
+[13.063613] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/launch/launch.py\n'}
+[13.069531] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/launch/map_config.rviz\n'}
+[13.075470] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner\n'}
+[13.081151] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner\n'}
+[13.087201] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh\n'}
+[13.092883] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv\n'}
+[13.098602] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/environment/path.sh\n'}
+[13.104572] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/environment/path.dsv\n'}
+[13.110158] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/local_setup.bash\n'}
+[13.115762] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/local_setup.sh\n'}
+[13.121616] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/local_setup.zsh\n'}
+[13.127301] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/local_setup.dsv\n'}
+[13.133409] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/package.dsv\n'}
+[13.135565] (-) TimerEvent: {}
+[13.139672] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/ament_index/resource_index/packages/simple_planner\n'}
+[13.145690] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake\n'}
+[13.151434] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake\n'}
+[13.156998] (simple_planner) StdoutLine: {'line': b'-- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/package.xml\n'}
+[13.164355] (simple_planner) CommandEnded: {'returncode': 0}
+[13.175572] (simple_planner) JobEnded: {'identifier': 'simple_planner', 'rc': 0}
+[13.176744] (-) EventReactorShutdown: {}

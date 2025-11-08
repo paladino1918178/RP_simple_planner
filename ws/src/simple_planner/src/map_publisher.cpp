@@ -34,8 +34,8 @@ int main(int argc, char **argv) {
   const int WALL_Y2[3] = {8, 16, 24};
 
   // Parametri dinamicità delle porte
-  const int   NUM_OPEN_DOORS = 18;      // quante "porte" restano aperte contemporaneamente, su 24
-  const double TOGGLE_SEC     = 2.0;   // ogni quanti secondi rimescoliamo le porte aperte
+  int num_open_doors = node->declare_parameter("num_open_doors", 18);      // quante "porte" restano aperte contemporaneamente, su 24
+  const double TOGGLE_SEC     = 2.0;                                       // ogni quanti secondi rimescoliamo le porte aperte
 
   // Mappa statica con muri e stanze
   nav_msgs::msg::OccupancyGrid base_map;
@@ -112,7 +112,7 @@ int main(int argc, char **argv) {
   };
 
   std::vector<int> open_door_indices;
-  pick_open_set(NUM_OPEN_DOORS, open_door_indices);
+  pick_open_set(num_open_doors, open_door_indices);
   rclcpp::Time last_toggle = node->get_clock()->now();
 
   // Loop di pubblicazione 
@@ -121,7 +121,7 @@ int main(int argc, char **argv) {
     // ricalcolo set di porte aperte ogni TOGGLE_SEC
     rclcpp::Time now = node->get_clock()->now();
     if ((now - last_toggle).seconds() >= TOGGLE_SEC) {
-      pick_open_set(NUM_OPEN_DOORS, open_door_indices);
+      pick_open_set(num_open_doors, open_door_indices);
       last_toggle = now;
       RCLCPP_INFO(node->get_logger(), "Aggiornate le porte aperte (%zu su %zu disponibili).",
                   open_door_indices.size(), all_doors.size());

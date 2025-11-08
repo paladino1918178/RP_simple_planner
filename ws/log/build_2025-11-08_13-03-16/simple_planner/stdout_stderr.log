@@ -41,8 +41,8 @@
 -- Configuring done (2.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/gerardo/ws/build/simple_planner
-[ 50%] [32mBuilding CXX object CMakeFiles/simple_planner_node.dir/src/simple_planner_node.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/map_publisher.dir/src/map_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_planner_node.dir/src/simple_planner_node.cpp.o[0m
 [ 75%] [32m[1mLinking CXX executable map_publisher[0m
 [ 75%] Built target map_publisher
 [100%] [32m[1mLinking CXX executable simple_planner_node[0m

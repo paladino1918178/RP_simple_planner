@@ -1,0 +1,76 @@
+[0.009s] Invoking command in '/home/gerardo/ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/gerardo/ws/src/simple_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gerardo/ws/install/simple_planner
+[0.107s] -- The C compiler identification is GNU 13.3.0
+[0.560s] -- The CXX compiler identification is GNU 13.3.0
+[0.970s] -- Detecting C compiler ABI info
+[1.129s] -- Detecting C compiler ABI info - done
+[1.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.136s] -- Detecting C compile features
+[1.136s] -- Detecting C compile features - done
+[1.188s] -- Detecting CXX compiler ABI info
+[1.358s] -- Detecting CXX compiler ABI info - done
+[1.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.365s] -- Detecting CXX compile features
+[1.365s] -- Detecting CXX compile features - done
+[1.367s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.458s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.510s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.526s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.690s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.698s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.708s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.772s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.774s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.820s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.961s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.038s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.183s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.229s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.303s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.304s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.305s] -- Configured cppcheck include dirs: 
+[2.305s] -- Configured cppcheck exclude dirs and/or files: 
+[2.305s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.305s] -- Configured cpplint exclude dirs and/or files: 
+[2.306s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.306s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.306s] -- Added test 'lint_cmake' to check CMake code style
+[2.307s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.308s] -- Added test 'uncrustify' to check C / C++ code style
+[2.308s] -- Configured uncrustify additional arguments: 
+[2.308s] -- Added test 'xmllint' to check XML markup files
+[2.309s] -- Configuring done (2.3s)
+[2.319s] -- Generating done (0.0s)
+[2.323s] -- Build files have been written to: /home/gerardo/ws/build/simple_planner
+[2.332s] Invoked command in '/home/gerardo/ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/gerardo/ws/src/simple_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gerardo/ws/install/simple_planner
+[2.333s] Invoking command in '/home/gerardo/ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/gerardo/ws/build/simple_planner -- -j8 -l8
+[2.370s] [ 50%] [32mBuilding CXX object CMakeFiles/map_publisher.dir/src/map_publisher.cpp.o[0m
+[2.370s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_planner_node.dir/src/simple_planner_node.cpp.o[0m
+[6.234s] [ 75%] [32m[1mLinking CXX executable map_publisher[0m
+[6.436s] [ 75%] Built target map_publisher
+[12.611s] [100%] [32m[1mLinking CXX executable simple_planner_node[0m
+[13.031s] [100%] Built target simple_planner_node
+[13.039s] Invoked command in '/home/gerardo/ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/gerardo/ws/build/simple_planner -- -j8 -l8
+[13.045s] Invoking command in '/home/gerardo/ws/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/gerardo/ws/build/simple_planner
+[13.050s] -- Install configuration: ""
+[13.051s] -- Execute custom install script
+[13.051s] -- Symlinking: /home/gerardo/ws/install/simple_planner/lib/simple_planner/simple_planner_node
+[13.058s] -- Symlinking: /home/gerardo/ws/install/simple_planner/lib/simple_planner/map_publisher
+[13.063s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/launch/launch.py
+[13.069s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/launch/map_config.rviz
+[13.075s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner
+[13.081s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner
+[13.087s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh
+[13.093s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv
+[13.098s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/environment/path.sh
+[13.104s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/environment/path.dsv
+[13.110s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/local_setup.bash
+[13.116s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/local_setup.sh
+[13.121s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/local_setup.zsh
+[13.127s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/local_setup.dsv
+[13.133s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/package.dsv
+[13.140s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/ament_index/resource_index/packages/simple_planner
+[13.146s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+[13.151s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+[13.157s] -- Symlinking: /home/gerardo/ws/install/simple_planner/share/simple_planner/package.xml
+[13.164s] Invoked command in '/home/gerardo/ws/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/gerardo/ws/build/simple_planner

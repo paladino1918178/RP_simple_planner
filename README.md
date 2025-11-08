@@ -24,7 +24,7 @@ Open a terminal and follow these steps:
 # Navigate to your workspace directory
 cd ~/ws
 
-# Source the ROS 2 Foxy environment
+# Source the ROS 2 Jazzy environment
 source /opt/ros/jazzy/setup.bash
 
 # Clean previous build artifacts
